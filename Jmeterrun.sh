@@ -17,7 +17,7 @@ sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/Docker/SampleTestScript_Google.jmx
 cd Docker
 
 sleep 1m
-#Push the code
+#Push the code to repo
 git add .
 git config --global user.name "SaiKumar"
 git config --global user.email "saikumar.vodhulu@qentelli.com"
