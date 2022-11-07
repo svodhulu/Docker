@@ -12,7 +12,7 @@ echo "*************Running Jmeterun.sh file**********"
 echo "Current time in epochtime $curTime"
 
 cd ..
-./jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/Docker/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/Docker/Results_0711_NEW.jtl -e -o /opt/apache-jmeter-5.5/bin/Docker/HTML_NEW_Results_0711
+sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/Docker/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/Docker/Results_0711_NEW.jtl -e -o /opt/apache-jmeter-5.5/bin/Docker/HTML_NEW_Results_0711
  
 cd Docker
 
