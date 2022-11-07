@@ -6,8 +6,6 @@ echo "*************Running Jmeterun.sh file**********"
 #git clone https://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@github.com/svodhulu/Docker.git
 
 
-cd ..
-
 #curTime= $(date+"%m-%d-%y_%H-%M-%S")
 #curTime= $(echo $curTime|sed 's/-//g'|sed 's/_//g')
 
@@ -20,7 +18,7 @@ cd Docker
 
 sleep 1m
 #Push the code
-git add
+git add .
 git config --global user.name "SaiKumar"
 git config --global user.email "saikumar.vodhulu@qentelli.com"
 
