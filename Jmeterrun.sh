@@ -18,7 +18,9 @@ echo "Current time in epochtime $curTime"
  
 cd Docker
 
+sleep 1m
 #Push the code
+git add
 git config --global user.name "SaiKumar"
 git config --global user.email "saikumar.vodhulu@qentelli.com"
 
