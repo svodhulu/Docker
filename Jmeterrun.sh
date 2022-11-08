@@ -8,10 +8,10 @@ echo "*************Running Jmeterun.sh file**********"
 
 curtime=$(date +%d%m%Y%H%M%S)
 
-echo "Current time in epochtime $curTime"
+echo "Current time in epochtime $curtime"
 
 cd ..
-sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/Docker/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/Docker/${curTime}.jtl -e -o /opt/apache-jmeter-5.5/bin/Docker/HTML_${curTime}
+sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/Docker/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/Docker/${curtime}.jtl -e -o /opt/apache-jmeter-5.5/bin/Docker/HTML_${curtime}
  
 cd Docker
 
